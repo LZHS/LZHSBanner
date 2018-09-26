@@ -26,9 +26,9 @@ dependencies {
 ### 效果图  
 
   <div align=center>
- <img src="https://github.com/LZHS/LZHSBannerDemo/blob/master/images/img01.jpg" width = 30% height = 40% /> 
- <img src="https://github.com/LZHS/LZHSBannerDemo/blob/master/images/img02.jpg" width = 30% height = 40% />
- <img src="https://github.com/LZHS/LZHSBannerDemo/blob/master/images/img03.jpg" width = 30% height = 40% />
+ <img src="https://github.com/LZHS/LZHSBanner/blob/master/images/img01.jpg" width = 30% height = 40% /> 
+ <img src="https://github.com/LZHS/LZHSBanner/blob/master/images/img02.jpg" width = 30% height = 40% />
+ <img src="https://github.com/LZHS/LZHSBanner/blob/master/images/img03.jpg" width = 30% height = 40% />
  </div>  
  
 ### 调用方法
@@ -203,10 +203,10 @@ public class NomeBannerViewHolder implements LZHSViewHolder<ImageBean> {
 > 
 
 ### DemoAPK
-[DemoAPK](https://github.com/LZHS/LZHSBannerDemo/raw/master/apk/LZHSBanner.apk)
+[DemoAPK](https://github.com/LZHS/LZHSBanner/raw/master/apk/LZHSBanner.apk)
 
 
-<img src="https://github.com/LZHS/LZHSBannerDemo/blob/master/images/qrcode.png" width = 40% height = 40% />
+<img src="https://github.com/LZHS/LZHSBanner/blob/master/images/qrcode.png" width = 40% height = 40% />
 
 
 ### 参考
