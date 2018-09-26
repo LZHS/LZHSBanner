@@ -18,9 +18,9 @@ allprojects {
 
 Step 2. Add the dependency
 
-```
+```	
 dependencies {
-	    implementation 'com.github.LZHS:LZHSBanner:v1.0'
+	implementation 'com.github.LZHS:LZHSBanner:v1.0'
 }
 ```  
 ### 效果图  
