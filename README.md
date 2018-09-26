@@ -1,6 +1,6 @@
 # 可折叠Banner
 
-[![](https://img.shields.io/badge/LZHSBanner-v1.0-brightgreen.svg)](https://jitpack.io/#LZHS/LZHSBanner)
+[![](https://img.shields.io/badge/LZHSBanner-v1.1-brightgreen.svg)](https://jitpack.io/#LZHS/LZHSBanner)
 
 
 
@@ -20,7 +20,7 @@ Step 2. Add the dependency
 
 ```	
 dependencies {
-	implementation 'com.github.LZHS:LZHSBanner:v1.0'
+	implementation 'com.github.LZHS:LZHSBanner:v1.1'
 }
 ```  
 ### 效果图  
