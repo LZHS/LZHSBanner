@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LZHSBannerView">
+        <!--是否开启banner 折叠效果-->
+        <attr name="isFoldEffect" format="boolean" />
+        <!--是否开启轮播图片-->
+        <attr name="canLoop" format="boolean" />
+        <!--indicator 距离左边的距离-->
+        <attr name="indicatorPaddingLeft" format="dimension" />
+        <!--indicator 距离右边的距离-->
+        <attr name="indicatorPaddingRight" format="dimension" />
+        <!--indicator 距离上边的距离-->
+        <attr name="indicatorPaddingTop" format="dimension" />
+        <!--indicator 距离下边的距离-->
+        <attr name="indicatorPaddingBottom" format="dimension" />
+        <!--indicator 对齐方式-->
+        <attr name="indicatorAlign">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <!--中间Page是否覆盖两边，默认覆盖-->
+        <attr name="middle_page_cover" format="boolean" />
+    </declare-styleable>
+</resources>

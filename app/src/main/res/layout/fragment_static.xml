@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="普通Banner"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+
+        <com.lzhs.library.LZHSBannerView
+            android:id="@+id/mBannerNormal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:canLoop="false"
+            app:isFoldEffect="false"
+            app:middle_page_cover="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="折叠Banner"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+
+        <com.lzhs.library.LZHSBannerView
+            android:id="@+id/mBannerFlod"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:canLoop="false"
+            app:indicatorAlign="right"
+            app:indicatorPaddingBottom="10dp"
+            app:indicatorPaddingRight="10dp"
+            app:isFoldEffect="true"
+            app:middle_page_cover="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="外扩展Banner"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+
+        <com.lzhs.library.LZHSBannerView
+            android:id="@+id/mBannerPadding"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:canLoop="true"
+            app:indicatorAlign="center"
+            app:indicatorPaddingBottom="10dp"
+            app:isFoldEffect="true"
+            app:middle_page_cover="true" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+
