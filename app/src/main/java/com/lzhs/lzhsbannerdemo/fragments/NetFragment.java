@@ -36,11 +36,11 @@ public class NetFragment extends Fragment {
     View mRootView;
     private LZHSBannerView mBannerNormal, mBannerFlod, mBannerPadding;
 
-    private static final String[] imagePath = {"https://raw.githubusercontent.com/LZHS/LZHSBannerDemo/master/images/banner_image01.jpg"
-            , "https://raw.githubusercontent.com/LZHS/LZHSBannerDemo/master/images/banner_image02.jpg"
-            , "https://raw.githubusercontent.com/LZHS/LZHSBannerDemo/master/images/banner_image03.jpg"
-            , "https://raw.githubusercontent.com/LZHS/LZHSBannerDemo/master/images/banner_image04.jpg"
-            , "https://raw.githubusercontent.com/LZHS/LZHSBannerDemo/master/images/banner_image05.jpg"};
+    private static final String[] imagePath = {"https://raw.githubusercontent.com/LZHS/LZHSBanner/master/images/banner_image01.jpg"
+            , "https://raw.githubusercontent.com/LZHS/LZHSBanner/master/images/banner_image02.jpg"
+            , "https://raw.githubusercontent.com/LZHS/LZHSBanner/master/images/banner_image03.jpg"
+            , "https://raw.githubusercontent.com/LZHS/LZHSBanner/master/images/banner_image04.jpg"
+            , "https://raw.githubusercontent.com/LZHS/LZHSBanner/master/images/banner_image05.jpg"};
 
     public static NetFragment newInstance() {
         return new NetFragment();
