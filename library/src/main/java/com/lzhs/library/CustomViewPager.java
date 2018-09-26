@@ -10,9 +10,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * Created by zhouwei on 17/8/16.
+ * Description: 该ViewPager 实现更改 Child 的绘制顺序
+ * <br/>
+ * Author: LZHS <br/>
+ * Email: 1050629507@qq.com <br/>
+ * Time: 2018/9/19$ 下午2:12$ <br/>
  */
-
 public class CustomViewPager extends ViewPager {
     private ArrayList<Integer> childCenterXAbs = new ArrayList<>();
     private SparseArray<Integer> childIndex = new SparseArray<>();

@@ -36,9 +36,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by zhouwei on 17/5/26.
+ * Description: android 可折叠 Banner
+ * <br/>
+ * Author: LZHS <br/>
+ * Email: 1050629507@qq.com <br/>
+ * Time: 2018/9/19$ 下午2:12$ <br/>
  */
-
 public class LZHSBannerView<T> extends RelativeLayout {
     private static final String TAG = "LZHSBannerView";
     private CustomViewPager mViewPager;

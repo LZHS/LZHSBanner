@@ -3,9 +3,6 @@ package com.lzhs.library.transformers;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 
-/**
- * Created by zhouwei on 17/5/26.
- */
 
 public class ScaleYTransformer implements ViewPager.PageTransformer {
     private static final float MIN_SCALE = 0.9F;

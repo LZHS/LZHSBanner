@@ -4,9 +4,12 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by zhouwei on 17/8/20.
+ * Description: 可折叠Banner 切换效果
+ * <br/>
+ * Author: LZHS <br/>
+ * Email: 1050629507@qq.com <br/>
+ * Time: 2018/9/19$ 下午2:12$ <br/>
  */
-
 public class CoverModeTransformer implements ViewPager.PageTransformer {
 
     private float reduceX = 0.0f;
